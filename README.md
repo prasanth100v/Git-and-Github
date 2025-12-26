@@ -3,8 +3,8 @@
 | Term                  | Meaning                                                  |
 | --------------------- | -------------------------------------------------------- |
 | **Git**               | A version control system that tracks changes in files    |
-| **Repository (repo)** | A folder where Git tracks project files                  |
-| **Working Directory** | Your project folder where you edit files                 |
+| **Repository (repo)** | 📁 A project folder where Git tracks project files       |
+| **Working Directory** | Your project folder where you edit files  ➡️ File is modified but not saved in Git history yet.|
 | **Staging Area**      | Temporary area where selected changes wait before commit |
 | **Commit**            | A saved snapshot of changes with a message               |
 | **Commit ID / Hash**  | Unique ID that identifies a commit                       |
