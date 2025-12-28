@@ -45,27 +45,40 @@ git diff d4e5f6 a1b2c3
 Moving from recently updated code back to previous code is called a version control operation. 
 In Git, this is done using rollback, revert, reset, or checkout of commits.
 
+## git checkout — View old code (SAFE)
+👉 Use when you just want to see or test old code
+```
+git checkout <commit-id>
+```
+> What happens: Code moves to an old version
+> Checkout is used to inspect previous versions without modifying history
+
+### 📌 Interview line:
+Checkout is used to inspect previous commits without changing history.
+
 ## PERMANENTLY undo changes
-👉 Use when bad code is already committed
+👉 Use when wrong code is already pushed
 ```
 git revert a1b2c3
 ```
 > What happens: Creates a new commit and That commit undoes the changes
+## 📌 Interview line:
+Revert is the safest rollback method in production because it does not rewrite history.
 
 ## DANGEROUS rollback (local only)
 👉 Use only if not pushed to GitHub
 ```
 git reset --hard d4e5f6
 ```
-> Deletes recent commits
+>  Deletes commits permanently
 > Code goes back completely
 
 git checkout is used to .
 
 ## One-line memory trick
-> git checkout → look back [inspect previous versions]
-> git revert → safely undo
-> git reset → force undo (dangerous)
+### git checkout → look back [inspect previous versions]
+### git revert → safely undo
+### git reset → force undo (dangerous)
 
 
 
