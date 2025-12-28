@@ -41,9 +41,10 @@ git diff d4e5f6 a1b2c3
 ⭐ One-line definition (memorize this)
 > Version control is the backbone of modern software development that manages code changes, collaboration, and stability.
 
-
+# Rollback
 Moving from recently updated code back to previous code is called a version control operation. 
 In Git, this is done using rollback, revert, reset, or checkout of commits.
+> Rollback is the process of restoring code to a previous stable version.
 
 ## git checkout — View old code (SAFE)
 👉 Use when you just want to see or test old code
@@ -51,8 +52,6 @@ In Git, this is done using rollback, revert, reset, or checkout of commits.
 git checkout <commit-id>
 ```
 > What happens: Code moves to an old version
-> Checkout is used to inspect previous versions without modifying history
-
 ### 📌 Interview line:
 Checkout is used to inspect previous commits without changing history.
 
