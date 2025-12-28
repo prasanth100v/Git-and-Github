@@ -1,3 +1,6 @@
+## Git → the tool that does version control
+## GitHub → a website that stores Git projects and helps people work together
+
 # beginner-friendly vocabulary list for Git & GitHub
 ## 📘 Git Vocabulary (Local Version Control)
 | Term                  | Meaning                                                  |
