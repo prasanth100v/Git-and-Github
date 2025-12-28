@@ -8,6 +8,7 @@ Work with others safely on the same project
 ```
 # What is a commit?
 ### A commit is: A snapshot of your project at a point in time
+> Each commit represents a version of the code with author, timestamp, and message.
  **Each commit = one version of your code.**
 Example:
 ```
@@ -37,7 +38,34 @@ git diff
 git diff d4e5f6 a1b2c3
 ```
  
+⭐ One-line definition (memorize this)
+> Version control is the backbone of modern software development that manages code changes, collaboration, and stability.
 
+
+Moving from recently updated code back to previous code is called a version control operation. 
+In Git, this is done using rollback, revert, reset, or checkout of commits.
+
+## PERMANENTLY undo changes
+👉 Use when bad code is already committed
+```
+git revert a1b2c3
+```
+> What happens: Creates a new commit and That commit undoes the changes
+
+## DANGEROUS rollback (local only)
+👉 Use only if not pushed to GitHub
+```
+git reset --hard d4e5f6
+```
+> Deletes recent commits
+> Code goes back completely
+
+git checkout is used to .
+
+## One-line memory trick
+> git checkout → look back [inspect previous versions]
+> git revert → safely undo
+> git reset → force undo (dangerous)
 
 
 
