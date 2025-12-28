@@ -9,10 +9,14 @@ Work with others safely on the same project
 # What is a commit?
 ### A commit is: A snapshot of your project at a point in time
  **Each commit = one version of your code.**
-
-
-
-
+Example:
+```
+Commit 1: Added login page
+Commit 2: Fixed login bug
+Commit 3: Improved UI
+```
+### 👉 Version control = history
+### 👉 Commit = one saved point in that history
 
 
 
