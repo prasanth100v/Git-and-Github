@@ -22,16 +22,21 @@ Commit 3: Improved UI
 ```
 git log
 ```
-📌 This shows:
+### (green = added, red = removed)
+📌 This shows: All commits, Who made them, When they were made and Commit messages
+> If you can see commits and their history, you are seeing version control.
 
-All commits
-Who made them
-When they were made
-Commit messages
+## See what changed in a version:
+```
+git show a1b2c3
+```
 
-
-
-
+## See differences between versions and (between two commits)
+```
+git diff
+git diff d4e5f6 a1b2c3
+```
+ 
 
 
 
