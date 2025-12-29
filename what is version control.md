@@ -1,11 +1,17 @@
 # What is version control?
-Version control is a system that tracks changes to files over time, so you can:
-```
-See what changed
-See who changed it
-Go back to any previous version
-Work with others safely on the same project
-```
+Version control is a system that tracks changes to files over time, so you can see what changed, who changed it, and roll back if needed.
+### Key capabilities :
+
+📌 Track every change (line by line)
+
+👥 Multiple developers work together safely
+
+⏪ Roll back to any previous version
+
+🌿 Work on features separately (branches)
+
+🔍 See who changed what and why
+
 # What is a commit?
 ### A commit is: A snapshot of your project at a point in time
 > Each commit represents a version of the code with author, timestamp, and message.
