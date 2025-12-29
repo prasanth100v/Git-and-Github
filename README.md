@@ -1,6 +1,6 @@
 ## Git → the tool that does version control
 ## GitHub → a website that stores Git projects and helps people work together
-
+> “I use Git for clean history management with branches and commits, and GitHub for collaboration, reviews, and automated deployments.”
 # beginner-friendly vocabulary list for Git & GitHub
 ## 📘 Git Vocabulary (Local Version Control)
 | Term                  | Meaning                                                  |
