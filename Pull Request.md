@@ -1,5 +1,5 @@
 # Pull Request (PR)
-### PR ➡️ 📬 Request approval from manager  “I finished my task, please review”
+### PR ➡️ 📬 Request approval from manager : “I finished my task, please review”
 
 **Real-world team workflow:**
 
