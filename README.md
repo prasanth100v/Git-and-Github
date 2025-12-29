@@ -17,14 +17,14 @@
 | **HEAD**              | Pointer to the current branch/commit                     |
 | **Clone**             | Copy a repository from remote to local                   |
 | **Checkout**          | Switch between branches or commits                       |
-| **Merge**             | Combine changes from one branch into another  (final document)     |
+| **Merge**             | Combine changes from one branch into another (final document) **PR approved 🎉 ➡️ 🧩 Feature is added to main code.**|
 | **Merge Conflict**    | ✍️ Two people editing the same sentence. ➡️ (“Which one is correct?” You decide manually, then commit.)  |
 | **Rebase**            | Move commits onto another branch’s base                  |
 | **Conflict**          | When Git can’t auto-merge changes                        |
 | **Diff**              | Shows differences between files/commits                  |
 | **Log**               | History of commits                                       |
 | **Status**            | Shows file states (modified, staged, etc.)               |
-| **Stash**             | Temporarily save uncommitted changes    **(Pause work  ➡️ Resume later)**  |
+| **Stash**             | Temporarily save uncommitted changes  🧳 Work is saved temporarily.  **(Pause work  ➡️ Resume later)**  |
 | **Reset**             | ⏪ Undo commits or unstage files   **Careful: can erase history**  |
 | **Revert**            | 🔙 Create a new commit to undo a previous commit   **Doesn’t delete history**  |
 | **Tag**               | Mark a specific commit (often for releases)  **Sticker on a box: “Release v1.0”** |
