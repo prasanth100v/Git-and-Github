@@ -111,7 +111,7 @@ git status
 ```
 2️⃣ Set this SSH URL as origin (safe even if already set)
 ```
-**git remote set-url origin** git@github.com:prasanth100v/private.git
+git remote set-url origin git@github.com:prasanth100v/private.git
 git remote -v
 ```
 Expected:
