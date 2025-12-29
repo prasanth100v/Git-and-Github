@@ -54,7 +54,9 @@ I remove it from tracking and add it to .gitignore.
 ```
 git rm --cached file.txt
 ```
-## 1️⃣2️⃣ 
+## 1️⃣2️⃣ Difference between git fetch and git pull?
+ **git fetch** only downloads changes, while **git pull** downloads and merges them into the current branch.
+
 ## 1️⃣3️⃣ Scenario: You want to mark a stable production release.
 I create a tag for that commit.
 ```
@@ -62,6 +64,15 @@ git tag v2.0
 ```
 ## 1️⃣4️⃣ Scenario: CI/CD should run automatically when code is pushed.
 I configure GitHub Actions workflow to trigger on push events.
+
+
+
+
+
+
+
+
+
 
 
 
