@@ -12,6 +12,14 @@ Approved → merged
 
 # 🔒 Branch Protection Rules
 “Branch protection rules are settings that prevent accidental or unauthorized changes to production code.”
+#### 🧭 When to use Branch Protection
+Use it on critical branches like:
+```
+main
+production
+release/*
+```
+
 ## Core branch protection settings (must-know)
 1️⃣ Require pull request before merging
 ```
@@ -24,6 +32,16 @@ Approved → merged
  1–2 reviewers 👉 Prevents self-approval
 ```
 📌 Interview tip: “We require at least one reviewer for production branches.”
+> “Approvals act as a human gate before Argo CD syncs.”
 
+3️⃣Restrict who can push to matching branches ✅
 
-
+## 🏆 Production-Ready Rule (Recommended)
+For main / production branch:
+```
+✅ Require PR
+✅ Require 1–2 approvals
+✅ Require CI checks
+✅ Restrict who can push
+❌ No force push
+```
