@@ -66,16 +66,37 @@ git tag v2.0
 I configure GitHub Actions workflow to trigger on push events.
 
 
+## 🟢 Scenario : You pushed code directly to main by mistake
+Problem: Production branch got unreviewed code.
 
+Best Practice Solution: Revert the commit and follow PR process next time.
+```
+git revert <commit-id>
+```
+> git revert — undo safely (history stays clean)
+Why teams love git revert
 
+✅ Safe for production — doesn’t rewrite history
 
+🤝 Collaboration-friendly — no force pushes
 
+🧾 Auditable — clear “undo” commit in history
 
+### Mental model (easy analogy)
+```
+git revert → “Add a correction note to the record” 📝
+git reset → “Erase pages from the record” ❌
+```
+🔑 One-line difference
+```
+git revert → Undo safely by adding a new commit
+git reset → Rewrite history by moving HEAD backward
+```
+## revert vs reset
+### Q: What do you use in production?
+> “git revert, because it doesn’t rewrite history and is safe for shared branches.”
 
-
-
-
-
-
+## Q: When do you use git reset?
+> “Only for local commits that haven’t been pushed.”
 
 
