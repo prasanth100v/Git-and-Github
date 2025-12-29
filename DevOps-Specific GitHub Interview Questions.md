@@ -6,7 +6,8 @@ In DevOps, I use GitHub as the single source of truth. I automate CI with GitHub
 ### 🔥 DevOps-Specific Example (EKS + GitOps)
 “When a PR is merged into main, Argo CD automatically syncs the changes to EKS. Branch protection ensures only reviewed and tested code reaches production.”
 
-
+### 🏆 Final Interview-Ready Summary
+In DevOps, Git acts as the source of truth for both application and infrastructure code. I use branch-based workflows, PR reviews, protected branches, and tags to enable safe deployments, fast rollbacks, and full auditability.
 
 
 
