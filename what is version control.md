@@ -73,12 +73,10 @@ git reset --hard d4e5f6
 >  Deletes commits permanently
 > Code goes back completely
 
-git checkout is used to .
-
 ## One-line memory trick
-### git checkout → look back [inspect previous versions]
-### git revert → safely undo
-### git reset → force undo (dangerous)
+#### git checkout → look back [inspect previous versions]
+#### git revert → safely undo
+#### git reset → force undo (dangerous)
 
 
 
