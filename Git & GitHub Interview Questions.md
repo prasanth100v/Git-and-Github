@@ -99,4 +99,22 @@ git reset → Rewrite history by moving HEAD backward
 ## Q: When do you use git reset?
 > “Only for local commits that haven’t been pushed.”
 
+## 🟢 Scenario : Your PR is approved but shows merge conflicts
+### Problem: Your branch is outdated compared to main.
+Solution: Update your branch with latest changes.
+```
+git checkout feature/login
+git pull origin main
+```
+Resolve conflicts → commit → push again.
+> Key Interview Point: Conflicts should be resolved in the feature branch, not in main.
+
+
+
+
+
+
+
+
+
 
