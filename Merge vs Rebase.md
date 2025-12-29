@@ -1,4 +1,4 @@
-What is Merge vs Rebase in Git?
+# What is Merge vs Rebase in Git?
 ### One-line memory trick 
 ```
 Merge = connect       → “Join timelines”
