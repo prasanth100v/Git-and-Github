@@ -20,7 +20,7 @@ Commit 3: Improved UI
 ### 👉 Version control = history
 ### 👉 Commit = one saved point in that history
 
-## See the history (MOST IMPORTANT COMMAND)
+## See the history 
 ```
 git log
 ```
