@@ -109,7 +109,32 @@ git pull origin main
 Resolve conflicts → commit → push again.
 > Key Interview Point: Conflicts should be resolved in the feature branch, not in main.
 
-
+## 🟢 Scenario : You want to contribute to an open-source project
+Problem: You don’t have write access.
+#### Solution Workflow:
+```
+Fork repository
+Clone your fork
+Create branch
+Commit changes
+Open Pull Request
+```
+## 🟢 Scenario : You accidentally committed a .env file
+#### Problem: Sensitive data pushed to GitHub.
+ Solution: Remove file and Add to **.gitignore**
+```
+git rm --cached .env
+```
+## 🟢 Scenario 10: You want deployments only after PR merge
+#### Problem: Prevent direct deploys from feature branches.
+Solution: Configure GitHub Actions to trigger on main only.
+```
+on:
+  push:
+    branches:
+      - main
+```
+Interview Gold Line:  “We deploy only reviewed and merged code.”
 
 
 
