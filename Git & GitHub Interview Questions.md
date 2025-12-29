@@ -136,8 +136,13 @@ on:
 ```
 Interview Gold Line:  “We deploy only reviewed and merged code.”
 
+# 🌿 Feature Branches 
+## ✅ What is a Feature Branch?
+A feature branch is a temporary branch created from the main codebase to develop a specific feature, bug fix, or change without impacting production code.
 
-
+## 🔐 Managing a Private Repository (DevOps View)
+### ✅ What is a Private Repository?
+A private repository is a GitHub repo where only invited users can view or contribute to the code.
 
 
 
