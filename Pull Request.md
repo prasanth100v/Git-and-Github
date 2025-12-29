@@ -1,5 +1,7 @@
 # Pull Request (PR)
-Real-world team workflow:
+### PR ➡️ 📬 Request approval from manager  “I finished my task, please review”
+
+**Real-world team workflow:**
 
 You push code
 
