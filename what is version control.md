@@ -9,7 +9,8 @@ Work with others safely on the same project
 # What is a commit?
 ### A commit is: A snapshot of your project at a point in time
 > Each commit represents a version of the code with author, timestamp, and message.
- **Each commit = one version of your code.**
+> ## Each commit = one version of your code.
+
 Example:
 ```
 Commit 1: Added login page
