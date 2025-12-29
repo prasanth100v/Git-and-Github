@@ -8,7 +8,7 @@
 | **Git**               | A version control system that tracks changes in files    |
 | **Repository (repo)** | 📁 A project folder where Git tracks project files       |
 | **Working Directory** | Your project folder where you edit files  ➡️ File is modified but not saved in Git history yet.|
-| **Staging Area** (git add)   | Temporary area where selected changes (files) wait before commit |
+| **Staging Area** (git add) | Temporary area where selected changes (files) wait before commit |
 | **Commit**            | A saved snapshot of changes with a message  (Save version)    |
 | **Commit ID / Hash**  | Unique ID that identifies a commit                       |
 | **Version Control**   | System to track file changes over time                   |
@@ -24,10 +24,10 @@
 | **Diff**              | Shows differences between files/commits                  |
 | **Log**               | History of commits                                       |
 | **Status**            | Shows file states (modified, staged, etc.)               |
-| **Stash**             | Temporarily save uncommitted changes                     |
+| **Stash**             | Temporarily save uncommitted changes    **(git stash)**  |
 | **Reset**             | Undo commits or unstage files                            |
 | **Revert**            | Create a new commit to undo a previous commit            |
-| **Tag**               | Mark a specific commit (often for releases)              |
+| **Tag**               | Mark a specific commit (often for releases)  **Sticker on a box: “Release v1.0”** |
 
 ## 📘 Git File States
 | State         | Meaning                        |
@@ -47,7 +47,7 @@
 | **Push**              | Upload local commits to GitHub → send it to GitHub. |
 | **Pull**              | Download changes from GitHub (Download latest updates before continuing work.) |
 | **Pull Request (PR)** | Request to merge changes into another branch (Asking: “Please review and add my work”) |
-| **Fork**              | Personal copy of someone else’s repo         |
+| **Fork**              | Copy someone’s repo **Fork the repo** → Make changes in your copy → **Create PR** (suggest corrections)|
 | **Clone**  git clone  | Download the entire project with history.    |
 | **Issue**             | Task, bug, or feature request                |
 | **Actions**           | CI/CD automation in GitHub                   |
