@@ -29,7 +29,7 @@ ls ~/.ssh
 #### 2️⃣ Generate a New SSH Key (Recommended Command)
 ✅ Modern & recommended (ED25519)
 ```
-ssh-keygen -t ed25519 -C "your_email@company.com"
+ssh-keygen -t ed25519 -C "prasanthema100.com"
 ```
 If ED25519 is not supported (older systems)
 ```
