@@ -105,9 +105,9 @@ Password: PASTE_YOUR_TOKEN_HERE
 ### Advanced Useful Commands
 | Command           | Explanation            | Example                   |
 | ----------------- | ---------------------- | ------------------------- |
-| `git rebase`      | Reapply commits        | `git rebase main`         |
-| `git cherry-pick` | Apply specific commit  | `git cherry-pick a1b2c3d` |
-| `git tag`         | Create version tag     | `git tag v1.0`            |
+| `git rebase`      | Update your branch with latest main  | `git rebase main`    |
+| `🍒 git cherry-pick` | copy a specific commit from one branch and apply it onto another branch  | `git cherry-pick a1b2c3d` |
+| `git tag`         | Create version tag (A tag is like a bookmark in Git history 📌)     | `git tag v1.0`            |
 | `git clean -f`    | Delete untracked files | `git clean -f`            |
 
 
