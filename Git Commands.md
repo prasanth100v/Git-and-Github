@@ -24,7 +24,9 @@
 | `git commit -am`    | Add + commit tracked files | `git commit -am "Bug fix"`       |
 | `git log`           | Show commit history        | `git log`                        |
 | `git log --oneline` | Short commit history       | `git log --oneline`              |
-
+| `git log -5`        | Show Last 5 commits        | `git log -5`                     |
+| `git log --author`  | commit history By author   | `git log --author`               |
+	
 ### Branching Commands
 | Command               | Explanation            | Example                    |
 | --------------------- | ---------------------- | -------------------------- |
