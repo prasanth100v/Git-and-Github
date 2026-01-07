@@ -5,7 +5,7 @@
 | `git --version`                  | Check installed Git version   | `git --version`                                |
 | `git config --global user.name`  | Set Git username              | `git config --global user.name "Prasanth"`     |
 | `git config --global user.email` | Set Git email                 | `git config --global user.email "p@gmail.com"` |
-| `git config --list`              | Displays all the Git configuration settings    | `git config --list"`          |
+| `git config --list`              | Displays all the Git configuration settings    | `git config --list`           |
 | `git init`                       | Initialize new Git repository | `git init myproject`                           |
 | `git status`                     | Show current repo status      | `git status`                                   |
 
