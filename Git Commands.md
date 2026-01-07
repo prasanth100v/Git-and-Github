@@ -44,6 +44,34 @@
 | `git pull`       | Fetch + merge         | `git pull origin main`                                   |
 | `git fetch`      | Download changes only | `git fetch origin`                                       |
 | `git clone`      | Copy remote repo      | `git clone https://github.com/user/repo.git`             |
+| `git ssh remote add` | Add remote repo  (push your code to a new GitHub repo) | `git remote set-url origin git@github.com:username/repo.git` |
+| `Before push`    |Before pushing, verify the connection     | `ssh -T git@github.com`             |
+
+
+
+When you run: **git push origin master** Git asks for ***username and token*
+### ✅ Why this happens
+> Your remote URL is HTTPS (not SSH)
+Git now requires a Personal Access Token (PAT) instead of a password
+### ✅ Correct way to push using HTTPS
+ Create a GitHub Personal Access Token (PAT)
+```
+Go to GitHub → Settings
+Developer settings
+Personal access tokens
+Tokens (classic) → Generate new token
+Select scopes:
+☑ repo
+Generate token and COPY it (you won’t see it again)
+```
+When prompted:
+```
+Username: your_github_username
+Password: PASTE_YOUR_TOKEN_HERE
+```
+
+
+
 
 ### Undo & Fix Commands ⚠️
 | Command            | Explanation                  | Example                   |
