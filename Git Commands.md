@@ -14,7 +14,7 @@
 | ------------------ | ------------------------------- | ------------------------ |
 | `git add file`     | Stage a specific file           | `git add app.py`         |
 | `git add .`        | Stage **all files recursively** | `git add .`              |
-| `git restore file` | Discard file changes            | `git restore config.yml` |
+| `git restore file` | undo changes in your working directory | `git restore config.yml` |
 | `git rm file`      | Delete file from repo           | `git rm old.txt`         |
 
 ### Commit Commands
