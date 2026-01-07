@@ -112,5 +112,24 @@ Password: PASTE_YOUR_TOKEN_HERE
 
 
 
+### 📌 Tag a specific commit
+```
+git tag -a v1.0.1 <commit-hash> -m "Hotfix release"
+```
+### 🚀 Push tags to remote (IMPORTANT)
+Push single tag
+```
+git push origin v1.0.0
+```
+Push all tags
+```
+git push origin --tags
+```
 
-
+🧪 Real release workflow (best practice)
+```
+git checkout main
+git pull origin main
+git tag -a v2.0.0 -m "Stable production release"
+git push origin v2.0.0
+```
