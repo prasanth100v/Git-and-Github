@@ -14,7 +14,7 @@
 | **Version Control**   | System to track file changes over time                   |
 | **Branch**            | A separate line of development ( Like working on a photocopy, not the original. )  |
 | **Master / Main**     | Default branch of the project                            |
-| **HEAD**              | It usually points to the latest commit of the current branch. HEAD is a pointer that tells Git where you are right now. |
+| **HEAD**              | It usually points to the latest commit of the current branch. HEAD is a pointer that tells Git where you are right now. 👉 “You are currently here.” |
 | **Clone**             | Copy a repository from remote to local                   |
 | **Checkout**          | Switch between branches or commits                       |
 | **Merge**             | Combine changes from one branch into another (final document) **PR approved 🎉 ➡️ 🧩 Feature is added to main code.**|
