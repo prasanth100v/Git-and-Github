@@ -39,7 +39,7 @@
 | Command          | Explanation           | Example                                                  |
 | ---------------- | --------------------- | -------------------------------------------------------- |
 | `git remote -v`  | Show remote URLs      | `git remote -v`                                          |
-| `git remote add` | Add remote repo       | `git remote add origin https://github.com/user/repo.git` |
+| `git remote add` | Add remote repo  (want to push your code to a new GitHub repo) | `git remote add origin https://github.com/user/repo.git` |
 | `git push`       | Push code to remote   | `git push origin main`                                   |
 | `git pull`       | Fetch + merge         | `git pull origin main`                                   |
 | `git fetch`      | Download changes only | `git fetch origin`                                       |
