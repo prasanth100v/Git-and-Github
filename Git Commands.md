@@ -83,6 +83,7 @@ Password: PASTE_YOUR_TOKEN_HERE
 
 ### Stash Commands
 > git stash is your "digital shelf." It allows you to temporarily set aside (shelve) your current uncommitted changes so you can work on something else, and then come back and reapply them later.
+
 | Command           | Explanation           | Example           |
 | ----------------- | --------------------- | ----------------- |
 | `git stash`       | Save uncommitted work | `git stash`       |
