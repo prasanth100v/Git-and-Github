@@ -45,7 +45,7 @@
 | `git fetch`      | Download changes only | `git fetch origin`                                       |
 | `git clone`      | Copy remote repo      | `git clone https://github.com/user/repo.git`             |
 | `git ssh remote add` | Add remote repo  (push your code to a new GitHub repo) | `git remote set-url origin git@github.com:username/repo.git` |
-| `Before push`    |Before pushing, verify the connection     | `ssh -T git@github.com`             |
+| `Before push`    |Before pushing, verify the ssh connection     | `ssh -T git@github.com`             |
 
 
 
