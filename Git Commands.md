@@ -94,10 +94,13 @@ Password: PASTE_YOUR_TOKEN_HERE
 ### Compare & Inspect
 | Command             | Explanation              | Example             |
 | ------------------- | ------------------------ | ------------------- |
-| `git diff`          | Show changes             | `git diff`          |
-| `git diff --staged` | Compare staged changes   | `git diff --staged` |
+| `git diff`          | Show changes ( Working Directory vs. Staging Area ) | `git diff`          |
+| `git diff --staged` | Compare staged changes (Staging Area vs. Last Commit)  | `git diff --staged` |
 | `git show`          | Show commit details      | `git show a1b2c3d`  |
 | `git blame`         | Line-by-line author info | `git blame app.py`  |
+| `git diff HEAD` | Working Directory vs. Last Commit (Staged + Unstaged changes).  | `git diff HEAD` |
+| `git diff <branch1> <branch2>` | Differences between two entire branches. |  `git diff <branch1> <branch2>` |
+
 
 ### Advanced Useful Commands
 | Command           | Explanation            | Example                   |
