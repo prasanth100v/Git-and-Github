@@ -73,7 +73,7 @@ Password: PASTE_YOUR_TOKEN_HERE
 
 
 
-### Undo & Fix Commands ⚠️
+### Undo & Fix Commands ⚠️ (Undo the last commit)
 | Command            | Explanation                  | Example                   |
 | ------------------ | ---------------------------- | ------------------------- |
 | `git reset file`   | Unstage file                 | `git reset app.py`        |
@@ -82,6 +82,7 @@ Password: PASTE_YOUR_TOKEN_HERE
 | `git revert`       | Undo commit safely           | `git revert a1b2c3d`      |
 
 ### Stash Commands
+> git stash is your "digital shelf." It allows you to temporarily set aside (shelve) your current uncommitted changes so you can work on something else, and then come back and reapply them later.
 | Command           | Explanation           | Example           |
 | ----------------- | --------------------- | ----------------- |
 | `git stash`       | Save uncommitted work | `git stash`       |
