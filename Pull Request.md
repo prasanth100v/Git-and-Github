@@ -1,5 +1,5 @@
 # Pull Request (PR)
-Pull Request reviews mean other team members must check and approve your code before it is merged into the main branch.
+Pull Request reviews mean other team members must check and approve your code before it is merged into the main branch or another branch.
 ### PR ➡️ 📬 Request approval from manager : “I finished my task, please review”
 
 **Real-world team workflow:**
@@ -9,7 +9,14 @@ Create a Pull Request
 Senior reviews your code
 Approved → merged
 ```
-
+🔄 Why Pull Requests are Used
+```
+✅ Code review before merging
+✅ Team discussion & comments
+✅ Catch bugs early
+✅ Maintain clean main/master branch
+✅ Approval-based merging
+```
 # 🔒 Branch Protection Rules
 “Branch protection rules are settings that prevent accidental or unauthorized changes to production code.”
 #### 🧭 When to use Branch Protection
@@ -44,4 +51,32 @@ For main / production branch:
 ✅ Require CI checks
 ✅ Restrict who can push
 ❌ No force push
+```
+
+# 🔁 Pull Request Workflow (Step-by-Step)
+1️⃣ Create a new branch
+```
+git checkout -b feature-login
+```
+2️⃣ Make changes & commit
+```
+git add .
+git commit -m "Add login feature"
+```
+3️⃣ Push branch to GitHub
+```
+git push origin feature-login
+```
+4️⃣ Create Pull Request on GitHub
+```
+✅ Go to GitHub repo
+✅ Click Compare & pull request
+✅ Add title & description
+✅ Click Create Pull Request
+```
+5️⃣ Review & Merge
+```
+✅ Team reviews code
+✅ Approve or request changes
+✅ Click Merge pull request
 ```
