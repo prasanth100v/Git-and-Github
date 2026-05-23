@@ -55,6 +55,8 @@ release/*
 ❌ No force push
 ```
 
+---
+
 # 🔁 Pull Request Workflow (Step-by-Step)
 1️⃣ Create a new branch
 ```hcl
