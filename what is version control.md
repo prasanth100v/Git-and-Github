@@ -113,7 +113,7 @@ git reset --hard d4e5f6
 | 📜 Q25 | In git diff, green lines mean?                        | 👉` Added code.`                                                                                              |
 | 📜 Q26 | In git diff, red lines mean?                          | 👉 `Removed code.`                                                                                            |
 | 🔄 Q27 | What is rollback in Git?                              | 👉 Restoring code to a `previous stable version`.                                                             |
-| 🔄 Q28 | Common Git rollback methods?                          | 👉 git checkout <br> git revert <br> git reset                                                              |
+| 🔄 Q28 | Common Git rollback methods?                          | git checkout <br> git revert <br> git reset                                                              |
 | 🔄 Q29 | Safest rollback method in production?                 | 👉 `git revert `                                                                                              |
 | 🔄 Q30 | Dangerous rollback method?                            | 👉` git reset --hard  `                                                                                       |
 | 👀 Q31 | Purpose of git checkout <commit-id>?                  | 👉 `Inspect old code safely. `                                                                                |
