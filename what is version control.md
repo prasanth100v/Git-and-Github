@@ -88,7 +88,7 @@ git reset --hard d4e5f6
 | ------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | 🔹 Q1  | What is version control?                              | 👉 A system that `tracks file changes over time`.                                                            |
 | 🔹 Q2  | Why is version control important?                     | 👉 Helps `collaboration`, `rollback`, and `tracking changes`.                                                |
-| 🔹 Q3  | Main advantages of version control?                   | 👉 ✅ Track changes <br> ✅ Team collaboration <br> ✅ Rollback support <br> ✅ Branching <br> ✅ Change history |
+| 🔹 Q3  | Main advantages of version control?                   | ✅ Track changes <br> ✅ Team collaboration <br> ✅ Rollback support <br> ✅ Branching <br> ✅ Change history |
 | 🔹 Q4  | What does version control track?                      | 👉 Who changed `what`, `when`, and `why`.                                                                         |
 | 🔹 Q5  | One-line definition of version control?               | 👉 Manages `code changes`, `collaboration`, and `stability`.                                                      |
 | 🔹 Q6  | Which tool is most commonly used for version control? | 👉 `Git`                                                                                                      |
@@ -97,10 +97,10 @@ git reset --hard d4e5f6
 | 🔹 Q9  | What is a local repository?                           | 👉 Repository stored `on your machine`.                                                                       |
 | 🔹 Q10 | What is a remote repository?                          | 👉 Repository hosted on platforms like `GitHub`.                                                              |
 | 📸 Q11 | What is a commit?                                     | 👉 `A snapshot of project code at a specific time`.                                                           |
-| 📸 Q12 | What information does a commit contain?               | 👉 `Author` <br> `Timestamp` <br> `Commit message` <br> `Code changes `                                     |
+| 📸 Q12 | What information does a commit contain?               | `Author` <br> `Timestamp` <br> `Commit message` <br> `Code changes `                                     |
 | 📸 Q13 | Why are commits important?                            | 👉 They create project history.                                                                             |
 | 📸 Q14 | One commit represents what?                           | 👉 `One version of the code`.                                                                                 |
-| 📸 Q15 | Example of commit messages?                           | 👉 Added login page <br> Fixed login bug <br> Improved UI                                                   |
+| 📸 Q15 | Example of commit messages?                           |  Added login page <br> Fixed login bug <br> Improved UI                                                   |
 | 📸 Q16 | Best practice for commit messages?                    | 👉 Clear and meaningful messages.                                                                           |
 | 📸 Q17 | Command to create a commit?                           | 👉 `git commit -m "message"  `                                                                                |
 | 📸 Q18 | What does -m mean in git commit?                      | 👉 Commit message.                                                                                          |
@@ -145,7 +145,7 @@ git reset --hard d4e5f6
 | 👥 Q57 | Command to fetch remote changes?                      | 👉 `git pull      `                                                                                           |
 | 👥 Q58 | Command to send changes to remote?                    | 👉 `git push     `                                                                                            |
 | 👥 Q59 | Command to clone repository?                          | 👉 `git clone <repo-url>   `                                                                                  |
-| 🔄 Q60 | Git file lifecycle stages?                            | 👉 `Working Directory` <br> `Staging Area` <br> `Repository  `                                               |
+| 🔄 Q60 | Git file lifecycle stages?                            | `Working Directory` <br> `Staging Area` <br> `Repository  `                                               |
 | 🔄 Q61 | Command to add files to staging?                      | 👉 `git add .`                                                                                              |
 | 🔄 Q62 | What is staging area?                                 | 👉 `Temporary area before commit. `                                                                           |
 | 🔄 Q63 | Command to check repository status?                   | 👉 `git status  `                                                                                             |
