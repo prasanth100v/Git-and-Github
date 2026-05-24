@@ -85,8 +85,7 @@ Password: PASTE_YOUR_TOKEN_HERE
 | `git revert`       | Undo commit safely           | `git revert a1b2c3d`      |
 
 ### 📦 Git Stash — Simple Explanation
- * git stash is used to `temporarily save uncommitted changes` without creating a commit, allowing developers to `switch branches` or `tasks` safely and restore the work later.
- * So you can work on something else, and then `come back` and `reapply them later`.
+ * git stash is used to `temporarily save uncommitted changes` without creating a commit, allowing developers to `switch branches` or `tasks` safely and you can work on something else, and then `come back` and `reapply them later`.
 
 | Command           | Explanation           | Example           |
 | ----------------- | --------------------- | ----------------- |
