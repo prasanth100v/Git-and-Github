@@ -84,8 +84,9 @@ Password: PASTE_YOUR_TOKEN_HERE
 | `git reset --hard` | Undo commit (delete changes) | `git reset --hard HEAD~1` |
 | `git revert`       | Undo commit safely           | `git revert a1b2c3d`      |
 
-### Stash Commands
-> git stash is your "digital shelf." It allows you to temporarily set aside (shelve) your current uncommitted changes so you can work on something else, and then come back and reapply them later.
+### 📦 Git Stash — Simple Explanation
+ * git stash is used to `temporarily save uncommitted changes` without creating a commit, allowing developers to `switch branches` or `tasks` safely and restore the work later.
+ * So you can work on something else, and then `come back` and `reapply them later`.
 
 | Command           | Explanation           | Example           |
 | ----------------- | --------------------- | ----------------- |
