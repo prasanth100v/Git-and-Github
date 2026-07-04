@@ -17,10 +17,25 @@
 | 1️⃣1️⃣      | 🚀 **GitHub Actions Deploys**          | *(Triggered automatically)*               | CI/CD pipeline `builds`, `tests`, and `deploys` the application | Automate delivery to environments    |
 
 
-## 🔐 Connect a Private Repository to Git on Linux
- * To connect a private GitHub repository on Linux, I configure `SSH authentication using key pairs`, add the public key to GitHub, and clone the repo via `SSH`.
- * 🔑 This provides secure, `passwordless access` and is the recommended approach in DevOps environments.
- * 🔑 Why SSH is preferred : `No password every time` and `Secure & stable`
+## 🔐 Connect a Private GitHub Repository on Linux (Real Company Workflow)
+ * 🚀 To connect a private GitHub repository on Linux, I configure `SSH authentication using key pairs`, add the public key to GitHub, verify the connection using `ssh -T git@github.com`, and clone the repository using the `SSH URL`.
+ * 🔑 This provides secure, `passwordless access` authentication and is the recommended approach in DevOps environments.
+ * 🔐 Why SSH is preferred : `No password every time` and `Secure & stable`
+
+| 🔢 **Step** | 📖 **Action**                | 💻 **Command / Action**                                      | 💡 **Purpose**                                  |
+| ----------- | ---------------------------- | ------------------------------------------------------------ | ----------------------------------------------- |
+| 1️⃣         | 📂 Check existing SSH keys   | `ls ~/.ssh`                                                  | Verify whether an SSH key already exists        |
+| 2️⃣         | 🔑 Generate SSH key          | `ssh-keygen -t ed25519 -C "your_email@example.com"`          | Create a secure SSH key pair                    |
+| 3️⃣         | 🚀 Start SSH Agent           | `eval "$(ssh-agent -s)"`                                     | Start the SSH agent to manage keys              |
+| 4️⃣         | ➕ Add private key            | `ssh-add ~/.ssh/id_ed25519`                                  | Load the private key into the SSH agent         |
+| 5️⃣         | ✅ Verify loaded key          | `ssh-add -l`                                                 | Confirm the SSH key is loaded                   |
+| 6️⃣         | 📋 Copy public key           | `cat ~/.ssh/id_ed25519.pub`                                  | Copy the public key to add to GitHub            |
+| 7️⃣         | 🌐 Add key to GitHub         | **GitHub → Settings → SSH and GPG keys → New SSH key**       | Register your public key with GitHub            |
+| 8️⃣         | 🔍 Test SSH connection       | `ssh -T git@github.com`                                      | Verify SSH authentication with GitHub           |
+| 9️⃣         | 📥 Clone repository          | `git clone git@github.com:<user>/<repo>.git`                 | Clone the private repository using SSH          |
+| 🔟          | 📍 Navigate to repository    | `cd <repo-name>`                                             | Enter the cloned repository                     |
+| 1️⃣1️⃣      | 🔗 Verify remote URL         | `git remote -v`                                              | Confirm the repository uses the SSH URL         |
+| 1️⃣2️⃣      | 🔄 Update remote (if needed) | `git remote set-url origin git@github.com:<user>/<repo>.git` | Switch an existing repository from HTTPS to SSH |
 
 ---
 
