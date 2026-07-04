@@ -16,6 +16,7 @@
 | 🔟         | 👨‍💻 **Code Review + Merge**            | *(GitHub UI or `git merge main` locally)* | Team reviews, approves, and merges the PR                 | Maintain code quality                      |
 | 1️⃣1️⃣      | 🚀 **GitHub Actions Deploys**          | *(Triggered automatically)*               | CI/CD pipeline `builds`, `tests`, and `deploys` the application | Automate delivery to environments    |
 
+---
 
 ## 🔐 Connect a Private GitHub Repository on Linux (Real Company Workflow)
  * 🚀 To connect a private GitHub repository on Linux, I configure `SSH authentication using key pairs`, add the public key to GitHub, verify the connection using `ssh -T git@github.com`, and clone the repository using the `SSH URL`.
@@ -39,6 +40,7 @@
 
 ---
 
+# Step by Step Explain :
 ## 🔐 How to Generate an SSH Key (Linux – Real Company Way)
 #### 1️⃣ Check if SSH already exists (optional but smart)
 ```hcl
@@ -148,8 +150,6 @@ origin  git@github.com:prasanth100v/private.git (push)
 | ------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 🏢 Q1   | Typical Git workflow in companies?                  |  Clone repo <br> Create branch <br> Write code <br> Commit <br> Push <br> Create PR <br> Review <br> Merge <br> Deploy                         |
 | 🏢 Q2   | What happens after PR merge in modern DevOps?       | 👉 `CI/CD pipeline deploys automatically. `                                                                                                        |
-| 🏢 Q3   | Which tool commonly runs CI/CD pipelines in GitHub? | 👉 `GitHub Actions `                                                                                                                               |
-| 🏢 Q4   | Which GitOps tool commonly deploys to Kubernetes?   | 👉 `Argo CD`                                                                                                                                       |
 | 🏢 Q5   | Real interview workflow statement?                  | 👉 “I create feature branches, commit logical changes, raise PRs, address reviews, and merge to main. CI/CD then deploys automatically.”         |
 | 🔐 Q6   | Best way to connect private GitHub repo in Linux?   | 👉 `SSH authentication.`                                                                                                                           |
 | 🔐 Q7   | Why is SSH preferred over HTTPS?                    |  ✅ Passwordless access <br> ✅ More secure <br> ✅ Stable authentication                                                                         |
@@ -184,23 +184,11 @@ origin  git@github.com:prasanth100v/private.git (push)
 | 🌿 Q36  | Command to verify repo status?                      | 👉 git status                                                                                                                                    |
 | 🌿 Q37  | Command to change remote URL to SSH?                | 👉 `git remote set-url origin [git@github.com](mailto:git@github.com):user/repo.git  `                                                             |
 | 🌿 Q38  | Command to verify remote URLs?                      | 👉` git remote -v  `                                                                                                                               |
-| 🌿 Q39  | Expected remote output?                             | 👉 origin [git@github.com](mailto:git@github.com):user/repo.git (fetch) <br> origin [git@github.com](mailto:git@github.com):user/repo.git (push) |
-| 🔄 Q40  | Main difference between HTTPS and SSH Git access?   | 👉 HTTPS uses `token/password`; SSH uses `keys`.                                                                                                     |
-| 🔄 Q41  | Which method avoids repeated authentication?        | 👉 `SSH`.                                                                                                                                          |
-| 🔄 Q42  | Which method uses Personal Access Token?            | 👉 `HTTPS`.                                                                                                                                        |
-| 🔄 Q43  | Which method is recommended in DevOps environments? | 👉 `SSH`.                                                                                                                                          |
-| 🛡️ Q44 | Should private SSH key be committed to Git?         | 👉 `Never`.                                                                                                                                        |
-| 🛡️ Q45 | Why protect private SSH key?                        | 👉 It grants repository/server access.                                                                                                           |
-| 🛡️ Q46 | Recommended permission for private key?             | 👉 `chmod 600 ~/.ssh/id_ed25519 `                                                                                                                  |
-| 🛡️ Q47 | Why use passphrase for SSH keys?                    | 👉 Additional security layer.                                                                                                                    |
-| 🛡️ Q48 | Why use ED25519 instead of RSA?                     | 👉 `Faster and more secure modern algorithm. `                                                                                                     |
-| 🚀 Q49  | Why is GitHub Actions important in workflow?        | 👉 Automates `testing` and `deployment`.                                                                                                             |
-| 🚀 Q50  | What usually triggers GitHub Actions?               | 👉 `Pushes` or `Pull Requests`.                                                                                                                      |
-| 🚀 Q51  | Why integrate Git with Argo CD?                     | 👉 Automated GitOps deployments.                                                                                                                 |
-| 🚀 Q52  | What is GitOps?                                     | 👉 Git as source of truth for `infrastructure/deployments`.                                                                                        |
-| 🛠️ Q53 | SSH authentication fails. First thing to check?     | 👉 ssh -T [git@github.com](mailto:git@github.com)                                                                                                |
-| 🛠️ Q54 | SSH key not working. What may be missing?           | 👉 Key not added to SSH agent or GitHub.                                                                                                         |
-| 🛠️ Q55 | Command to confirm SSH agent has key?               | 👉` ssh-add -l   `                                                                                                                                 |
-| 🛠️ Q56 | Git asks for password despite SSH setup. Why?       | 👉 Remote URL still uses `HTTPS`.                                                                                                                  |
-| 🛠️ Q57 | How to fix Git asking for password?                 | 👉 Change `remote URL to SSH`.                                                                                                                     |
+| 🛡️ Q39 | Recommended permission for private key?             | 👉 `chmod 600 ~/.ssh/id_ed25519 `                                                                                                                  |
+| 🚀 Q40  | What is GitOps?                                     | 👉 Git as source of truth for `infrastructure/deployments`.                                                                                        |
+| 🛠️ Q41 | SSH authentication fails. First thing to check?     | 👉 ssh -T [git@github.com](mailto:git@github.com)                                                                                                |
+| 🛠️ Q42 | SSH key not working. What may be missing?           | 👉 Key not added to SSH agent or GitHub.                                                                                                         |
+| 🛠️ Q43 | Command to confirm SSH agent has key?               | 👉` ssh-add -l   `                                                                                                                                 |
+| 🛠️ Q44 | Git asks for password despite SSH setup. Why?       | 👉 Remote URL still uses `HTTPS`.                                                                                                                  |
+| 🛠️ Q45 | How to fix Git asking for password?                 | 👉 Change `remote URL to SSH`.                                                                                                                     |
 
