@@ -1,19 +1,20 @@
 ## 🔁 Real Company Workflow (End-to-End)
-```hcl
-1️⃣ Clone repo
-2️⃣ Create feature branch
-3️⃣ Write code
-4️⃣ git add + commit
-5️⃣ git push
-6️⃣ Create PR
-7️⃣ Review + merge
-8️⃣ GitHub Actions deploys
-```
+  * 🚀 In my company workflow, a DevOps Engineer `clones the repository`, creates a feature branch, writes code, commits and pushes changes, opens a `Pull Request` for `review`, and after approval the `code is merged`.
+  * 🌿 A CI/CD pipeline such as GitHub Actions then automatically `builds`, `tests`, and `deploys` the application.
 
-## 🔄 End-to-End Workflow :
- * “In my daily workflow, I create a `feature branch`, commit `small logical changes`, push to GitHub,
- * raise a `pull request`, address reviews, and merge to main.
- * CI/CD then runs automatically using `GitHub Actions` and `Argo CD`.
+| 🔢 **Step** | 📖 **Action**                         | 💻 **Git Command**                        | 🧠 **What Happens**                                    | 💡 **Purpose**                             |
+| ----------- | ------------------------------------- | ----------------------------------------- | --------------------------------------------------------- | ------------------------------------------ |
+| 1️⃣         | 📥 **Clone Repository**               | `git clone <repo-url>`                    | Download the project from GitHub to your local machine    | Start working on the project               |
+| 2️⃣         | 🌿 **Create Feature Branch**          | `git checkout -b feature/login`           | Create a separate branch from `main` or `develop`         | Isolate your changes                       |
+| 3️⃣         | 💻 **Write Code**                     | *(Edit files)*                            | Implement the feature or fix the bug                      | Develop without affecting others           |
+| 4️⃣         | 🔍 **Check Changes**                  | `git status`                              | View modified, staged, and untracked files                | Verify your changes                        |
+| 5️⃣         | ➕ **Stage Changes**                   | `git add .`                               | Add changes to the staging area                          | Prepare files for commit                   |
+| 6️⃣         | 💾 **Commit Changes**                 | `git commit -m "Add login feature"`       | Save changes in the local repository                      | Create a meaningful checkpoint             |
+| 7️⃣         | ⬆️ **Push Branch**                    | `git push origin feature/login`           | Push your branch to GitHub                                | Share your changes with the team           |
+| 8️⃣         | 🔀 **Create Pull Request (PR)**       | *(GitHub UI)*                             | Request to merge your branch                              | Start the code review process              |
+| 9️⃣         | 🔄 **Sync Latest Changes (Optional)** | `git pull origin main`                    | `Fetch` and `merge` the latest changes from `main`        | Keep your branch up to date before merging |
+| 🔟         | 👨‍💻 **Code Review + Merge**            | *(GitHub UI or `git merge main` locally)* | Team reviews, approves, and merges the PR                 | Maintain code quality                      |
+| 1️⃣1️⃣      | 🚀 **GitHub Actions Deploys**          | *(Triggered automatically)*               | CI/CD pipeline `builds`, `tests`, and `deploys` the application | Automate delivery to environments    |
 
 
 ## 🔐 Connect a Private Repository to Git on Linux
