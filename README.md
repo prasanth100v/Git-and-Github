@@ -66,3 +66,15 @@
 | ⭐ **Stars**                | Bookmark or appreciation                       |
 | 👀 **Watch**               | Get repository notifications                   |
 | 🏢 **Organizations**       | `Group accounts` for `teams/projects`            |
+
+---
+
+## 🚀 Git Commands — When to Use
+| 🎯 **Situation**                              | ✅ **Recommended Command** | 💡 **Why?**                                                             | 🖥️ **Example**           |
+| ---------------------------------------------- | ------------------------- | ------------------------------------------------------------------------ | ------------------------- |
+| Merge a feature branch into `main`             | 🔀 `git merge`            | Use git merge to safely combines branches while preserving history      | `git merge feature/login` |
+| Clean up commit history before creating a PR   | 📚 `git rebase`           | git rebase to maintain a clean commit history before a Pull Request 🚀  | `git rebase main`         |
+| Undo a bad commit that has already been pushed | ↩️ `git revert`           | git revert to safely undo changes that have already been pushed          | `git revert <commit-id>`  |
+| Remove local commits before pushing            | ⏪ `git reset`            | Remove or modify local commits before they are shared. 🌿🚀             | `git reset --soft HEAD~1` |
+
+
