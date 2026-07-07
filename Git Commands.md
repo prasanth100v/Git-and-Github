@@ -151,14 +151,12 @@ git push origin --tags
 | 🔹 Q8  | What does git status display?                                 |  Modified files <br> Staged files <br> Untracked files <br> Current branch                                                     |
 | 📂 Q9  | Command to stage a specific file?                             | 👉 `git add app.py  `                                                                                                              |
 | 📂 Q10 | Command to stage all files?                                   | 👉` git add .   `                                                                                                                  |
-| 📂 Q11 | What does git add . do?                                       | 👉 `Stages all files recursively. `                                                                                                |
 | 📂 Q12 | Purpose of staging area?                                      | 👉 `Temporary area before commit. `                                                                                                |
 | 📂 Q13 | Command to undo working directory changes?                    | 👉 `git restore config.yml  `                                                                                                      |
 | 📂 Q14 | Purpose of git restore?                                       | 👉 `Restore file to last committed state.  `                                                                                       |
 | 📂 Q15 | Command to delete file from Git repo?                         | 👉 `git rm old.txt  `                                                                                                              |
 | 📸 Q16 | Command to create commit?                                     | 👉 git commit -m "Initial commit"                                                                                                |
 | 📸 Q17 | Meaning of -m in commit?                                      | 👉 `Commit message.`                                                                                                               |
-| 📸 Q18 | What does git commit -am do?                                  | 👉 `Add tracked files + commit.`                                                                                                   |
 | 📸 Q19 | Command for short commit history?                             | 👉 `git log --oneline     `                                                                                                        |
 | 📸 Q20 | Command to show last 5 commits?                               | 👉 `git log -5  `                                                                                                                  |
 | 📸 Q21 | Command to filter commits by author?                          | 👉 `git log --author`                                                                                                              |
@@ -211,7 +209,7 @@ git push origin --tags
 | 🚀 Q71 | Command to create annotated tag?                              | 👉 git tag -a v1.0.1 <commit-hash> -m "Hotfix release"                                                                           |
 | 🚀 Q72 | Command to push single tag?                                   | 👉 `git push origin v1.0.0 `                                                                                                       |
 | 🚀 Q73 | Command to push all tags?                                     | 👉 `git push origin --tags `                                                                                                       |
-| 🚀 Q74 | Purpose of git clean -f?                                      | 👉 Delete untracked files.                                                                                                       |
+| 🚀 Q74 | Purpose of `git clean -f`?                                      | 👉 Delete untracked files.                                                                                                       |
 | 📦 Q75 | Example production release workflow?                          | git checkout main <br> git pull origin main <br> git tag -a v2.0.0 -m "Stable production release" <br> git push origin v2.0.0 |
 | 📦 Q76 | Why use Git tags in production?                               | 👉 Identify stable releases easily.                                                                                              |
 | 📦 Q77 | Common tag naming style?                                      | 👉 v1.0.0                                                                                                                        |
