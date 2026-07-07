@@ -89,7 +89,7 @@
 | `git log`          | View commit history                     | Show commit history                          | `git log --oneline`                 |
 | `git diff`         | Compare changes                         | View differences between files or commits    | `git diff`                          |
 | `git stash`        | 📦 Temporarily save work                | Store uncommitted changes                    | `git stash`                         |
-| `git stash pop`    | Restore saved work                      | Apply the latest stashed changes             | `git stash pop`                     |
+| `git stash pop`    | Restore saved work                      | Restore the draft and delete the saved copy  | `git stash pop`                     |
 | `git branch`       | Manage branches                         | List or create branches                      | `git branch`                        |
 | `git remote -v`    |  Verify remote repository               | Display remote URLs                          | `git remote -v`                     |
 | `git tag`          |  📜 Mark releases                       | Create version tags                          | `git tag v1.0.0`                    |
