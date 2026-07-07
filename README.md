@@ -77,6 +77,7 @@
 | Undo a bad commit that has already been pushed | ↩️ `git revert`           | git revert to safely undo changes that have already been pushed          | `git revert <commit-id>`  |
 | Remove local commits before pushing            | ⏪ `git reset`            | Remove or modify local commits before they are shared. 🌿🚀             | `git reset --soft HEAD~1` |
 
+![Uploading ChatGPT Image Jul 7, 2026, 11_06_19 AM.png…]()
 
 ## 🚀 Popular Git Commands — When to Use
 | 💻 **Git Command** | 🎯 **When to Use**                    | 💡 **Purpose**                               | 📝 **Example**                      |
