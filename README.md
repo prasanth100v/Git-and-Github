@@ -78,3 +78,25 @@
 | Remove local commits before pushing            | ⏪ `git reset`            | Remove or modify local commits before they are shared. 🌿🚀             | `git reset --soft HEAD~1` |
 
 
+## 🚀 Popular Git Commands — When to Use
+| 💻 **Git Command** | 🎯 **When to Use**                    | 💡 **Purpose**                               | 📝 **Example**                      |
+| ------------------ | --------------------------------------- | -------------------------------------------- | ----------------------------------- |
+| `git clone`        | 📥 First time working on a project      | Download a remote repository                 | `git clone <repo-url>`              |
+| `git checkout -b`  | 🌿 Start a new feature                  | Create and switch to a new branch            | `git checkout -b feature/login`     |
+| `git status`       | 🔍 Check current changes                | View modified, staged, and untracked files   | `git status`                        |
+| `git add`          | ➕ Prepare files for commit             | Stage changes                                | `git add .`                         |
+| `git commit`       | 💾 Save changes locally                 | Create a commit with a message               | `git commit -m "Add login feature"` |
+| `git push`         | ⬆️ Share your changes                   | Upload commits to the remote repository      | `git push origin feature/login`     |
+| `git pull`         | ⬇️ Get the latest changes               | Fetch and merge remote changes               | `git pull origin main`              |
+| `git fetch`        | 📥 Check remote updates without merging | Download latest commits only                 | `git fetch origin`                  |
+| `git merge`        | 🔀 Combine branches                     | Merge another branch into the current branch | `git merge feature/login`           |
+| `git rebase`       | 📚 Clean commit history                 | Replay commits on top of another branch      | `git rebase main`                   |
+| `git revert`       | ↩️ Undo a pushed commit                 | Create a new commit that reverses changes    | `git revert <commit-id>`            |
+| `git reset`        | ⏪ Undo local commits                   | Move the branch pointer to an earlier commit | `git reset --soft HEAD~1`           |
+| `git log`          | View commit history                     | Show commit history                          | `git log --oneline`                 |
+| `git diff`         | Compare changes                         | View differences between files or commits    | `git diff`                          |
+| `git stash`        | 📦 Temporarily save work                | Store uncommitted changes                    | `git stash`                         |
+| `git stash pop`    | Restore saved work                      | Apply the latest stashed changes             | `git stash pop`                     |
+| `git branch`       | Manage branches                         | List or create branches                      | `git branch`                        |
+| `git remote -v`    |  Verify remote repository               | Display remote URLs                          | `git remote -v`                     |
+| `git tag`          |  📜 Mark releases                       | Create version tags                          | `git tag v1.0.0`                    |
