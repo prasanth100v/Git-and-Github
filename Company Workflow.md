@@ -1,5 +1,6 @@
 ## 🔁 Real Company Workflow (End-to-End)
-  * 📂 In my company workflow, a DevOps Engineer `clones the repository`, creates a feature branch, writes code, commits and pushes changes, opens a `Pull Request` for `review`, and after approval the `code is merged`.
+  * 📂 In my project, I clone the repository, create a `feature branch`, implement the required changes, and test them locally.
+  * 💻 Then I commit and push my changes to GitHub and create a `Pull Request`. After the code review, I resolve any review comments if needed. Once the PR is approved, it is merged into `the main branch`.
   * 🚀 After merging, the CI/CD pipeline such as GitHub Actions and Argo CD automatically builds, tests, and deploys the application.
   * 🎉 Key Points
        * 🌿 Every new feature is developed in its own branch.
