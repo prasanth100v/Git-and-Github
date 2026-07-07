@@ -76,8 +76,7 @@
 | Clean up commit history before creating a PR   | 📚 `git rebase`           | git rebase to maintain a clean commit history before a Pull Request 🚀  | `git rebase main`         |
 | Undo a bad commit that has already been pushed | ↩️ `git revert`           | git revert to safely undo changes that have already been pushed          | `git revert <commit-id>`  |
 | Remove local commits before pushing            | ⏪ `git reset`            | Remove or modify local commits before they are shared. 🌿🚀             | `git reset --soft HEAD~1` |
-
-![Uploading ChatGPT Image Jul 7, 2026, 11_06_19 AM.png…]()
+<img width="1920" height="2400" alt="InShot_20260707_121421496 jpg" src="https://github.com/user-attachments/assets/8b6a9dbf-1f8a-4dbe-b05e-d16cce720106" />
 
 ## 🚀 Popular Git Commands — When to Use
 | 💻 **Git Command** | 🎯 **When to Use**                    | 💡 **Purpose**                               | 📝 **Example**                      |
